@@ -96,7 +96,7 @@ function setup() {
   brick48 = new Brick(width / 2 + 300, height / 2 - 100, 100, 50);
 
   airBlower = createImg("assets/balloon.png");
-  airBlower.position(width / 2 - 900, height / 2 - 20);
+  airBlower.position(50, height / 2 - 20);
   airBlower.size(80, 80);
   airBlower.mouseClicked(blow);
 
